@@ -18,4 +18,6 @@ run the following commands
 ./mvnw spring-boot:run
 
 The spring boot application will load and launch.Now you can run the curl file on the terminal or run the API through Postman.
-
+- The code also contains pre-generated test results in the output folder. It has 1 output for each of the templates which is built using the sample curl request.
+- The code handles all the exceptions as mentioned in the API specifications like Template Not Found Error, Internal Server Error, Unauthorized error and Bad Request Error
+- The API is built using Spring Boot and the code is divided into various packages and is made using OOPs concepts hence it is easy to understand.
